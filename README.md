@@ -12,7 +12,7 @@ The project integrates an **RRDB-based deep learning restoration model** with a 
 
 Image degradation caused by noise, blur, compression, low resolution, and other distortions can significantly affect the quality of visual inspection and computer vision tasks.
 
-**SemiRestoreNet** addresses this problem by applying deep-learning-based image restoration to degraded input images.
+**ImageRestoreNet** addresses this problem by applying deep-learning-based image restoration to degraded input images.
 
 The system combines:
 
@@ -30,7 +30,7 @@ The project demonstrates the integration of a deep-learning image restoration mo
 
 ## 🎯 Objectives
 
-The main objectives of SemiRestoreNet are to:
+The main objectives of ImageRestoreNet are to:
 
 * Restore degraded images using deep learning.
 * Improve image quality while preserving important visual details.
@@ -47,7 +47,7 @@ The main objectives of SemiRestoreNet are to:
 
 ### 🧠 AI-Based Image Restoration
 
-SemiRestoreNet uses an **RRDB (Residual-in-Residual Dense Block)** based deep-learning architecture for image restoration.
+ImageRestoreNet uses an **RRDB (Residual-in-Residual Dense Block)** based deep-learning architecture for image restoration.
 
 The model learns to reconstruct useful visual information from degraded images.
 
@@ -100,7 +100,7 @@ Inspection-related results are stored in a structured format and can be used for
                                │
                                ▼
                     ┌──────────────────────┐
-                    │  SemiRestoreNet      │
+                    │  ImageRestoreNet     │
                     │   RRDB / WAF-RRDB    │
                     │      Restoration     │
                     └──────────┬───────────┘
@@ -194,7 +194,7 @@ Restored Image
 
 # ⚡ WAF-RRDB-LITE
 
-SemiRestoreNet also incorporates the **WAF-RRDB-LITE** restoration approach for efficient image restoration.
+ImageRestoreNet also incorporates the **WAF-RRDB-LITE** restoration approach for efficient image restoration.
 
 The lightweight architecture focuses on reducing unnecessary computational complexity while retaining the important restoration capability of the RRDB-based approach.
 
@@ -205,7 +205,7 @@ This makes the restoration pipeline more suitable for practical application scen
 # 📂 Project Structure
 
 ```text
-SemiRestoreNet/
+ImageRestoreNet/
 │
 ├── RRDB_modal/
 │   ├── Restoration model
@@ -271,8 +271,8 @@ SemiRestoreNet/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dhanusiyasri/SemiRestoreNet.git
-cd SemiRestoreNet
+git clone https://github.com/dhanusiyasri/ImageRestoreNet.git
+cd ImageRestoreNet
 ```
 
 ---
@@ -399,7 +399,7 @@ The demonstration showcases the image restoration and inspection workflow.
 
 # 💡 Applications
 
-The techniques implemented in SemiRestoreNet can be applied to:
+The techniques implemented in ImageRestoreNet can be applied to:
 
 * Image restoration
 * Low-quality image enhancement
@@ -456,10 +456,10 @@ The current implementation provides the foundation for further improvements such
 
 ## ⭐ Project Summary
 
-**SemiRestoreNet** is a completed AI-based image processing project that combines **RRDB-based deep-learning image restoration, lightweight restoration, backend integration, frontend interaction, and image inspection** into a single application.
+**ImageRestoreNet** is a completed AI-based image processing project that combines **RRDB-based deep-learning image restoration, lightweight restoration, backend integration, frontend interaction, and image inspection** into a single application.
 
 ```text
-              SemiRestoreNet
+              ImageRestoreNet
                     │
         ┌───────────┴───────────┐
         │                       │
@@ -481,4 +481,4 @@ The current implementation provides the foundation for further improvements such
              Final Results
 ```
 
-**SemiRestoreNet — Deep Learning for Practical Image Restoration and Inspection.**
+**ImageRestoreNet — Deep Learning for Practical Image Restoration and Inspection.**
