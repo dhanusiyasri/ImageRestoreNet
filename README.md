@@ -2,7 +2,7 @@
 
 ### AI-Based Image Restoration and Inspection using RRDB
 
-SemiRestoreNet is an **AI-powered image processing and restoration system** developed to restore degraded images and improve their visual quality for downstream inspection and analysis.
+ImageRestoreNet is an **AI-powered image processing and restoration system** developed to restore degraded images and improve their visual quality for downstream inspection and analysis.
 
 The project integrates an **RRDB-based deep learning restoration model** with a backend processing layer and an interactive frontend, providing an end-to-end workflow from image input to restoration and inspection.
 
