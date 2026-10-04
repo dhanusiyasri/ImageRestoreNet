@@ -1,4 +1,4 @@
-# SemiRestoreNet
+# ImageRestoreNet
 
 ### AI-Based Image Restoration and Inspection using RRDB
 
